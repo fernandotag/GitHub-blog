@@ -25,7 +25,7 @@ interface IGitHubPostResponse {
   ]
 }
 
-function Home() {
+export function Home() {
   const [posts, setPosts] = useState<IPost[]>([])
   const [loading, setLoading] = useState(false)
 

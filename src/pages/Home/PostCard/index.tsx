@@ -28,7 +28,7 @@ export function PostCard({ post }: IPostCardProps) {
   }
 
   return (
-    <PostCardContainer to={`/${id}`}>
+    <PostCardContainer to={`/post/${id}`}>
       <PostCardHeader>
         <h1>{title}</h1>
         <span id="time">{formattedDate}</span>
