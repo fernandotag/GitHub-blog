@@ -6,6 +6,12 @@ import {
   ProfileCardHeader,
 } from './styles'
 import { api } from '../../../lib/Axios'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import {
+  faArrowUpRightFromSquare,
+  faUserGroup,
+} from '@fortawesome/free-solid-svg-icons'
 
 interface IProfile {
   name: string
@@ -60,7 +66,7 @@ export function ProfileCard() {
         <ProfileCardHeader>
           <h1>{profile?.name}</h1>
           <a href={profile?.url} target="_blank" rel="noreferrer">
-            GITHUB <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            GITHUB <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
           </a>
         </ProfileCardHeader>
         <ProfileCardBody>
@@ -68,15 +74,11 @@ export function ProfileCard() {
         </ProfileCardBody>
         <ProfileCardFooter>
           <span>
-            <i className="fa-brands fa-github"></i>
+            <FontAwesomeIcon icon={faGithub} />
             {profile?.githubUsername}
           </span>
           <span>
-            <i className="fa-solid fa-building"></i>
-            {profile?.company}
-          </span>
-          <span>
-            <i className="fa-solid fa-user-group"></i>
+            <FontAwesomeIcon icon={faUserGroup} />
             {profile?.followers} Followers
           </span>
         </ProfileCardFooter>

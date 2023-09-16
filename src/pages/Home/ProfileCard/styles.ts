@@ -46,7 +46,7 @@ export const ProfileCardHeader = styled.div`
     text-transform: uppercase;
     text-decoration: none;
 
-    i {
+    svg {
       width: 0.75rem;
       margin-left: 0.5rem;
     }
@@ -60,8 +60,15 @@ export const ProfileCardFooter = styled.div`
   gap: 1.5rem;
   color: ${(props) => props.theme['base-subtitle']};
 
-  i {
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  svg {
     color: ${(props) => props.theme['base-label']};
-    margin-right: 0.5rem;
+    width: 1.125rem;
+    height: 1.125rem;
   }
 `
