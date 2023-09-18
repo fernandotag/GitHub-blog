@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
@@ -32,7 +32,7 @@ You can:
 
 👉 Link to access: [https://fernandotag.github.io/github-blog/](https://fernandotag.github.io/github-blog/)
 
-## Layout
+## Screenshots
 
 <img width="1024" alt="Web screenshot" src=".github/assets/web-screenshot.jpg">
 <br />
