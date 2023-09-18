@@ -1361,4 +1361,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       font-size: 84%;
     }
   }
-`;function fK(){return W.jsxs(G2,{theme:So,children:[W.jsx(FM,{children:W.jsx(dK,{})}),W.jsx(pK,{})]})}sh.createRoot(document.getElementById("root")).render(W.jsx(ue.StrictMode,{children:W.jsx(fK,{})}));
+`;function fK(){return W.jsxs(G2,{theme:So,children:[W.jsx(FM,{basename:window.location.pathname||"",children:W.jsx(dK,{})}),W.jsx(pK,{})]})}sh.createRoot(document.getElementById("root")).render(W.jsx(ue.StrictMode,{children:W.jsx(fK,{})}));
