@@ -2,8 +2,9 @@
   <img src="./src/assets/logo.svg" width="200px">
 </p>
 <p align="center">	
+  <img alt="Quality Gate" src="https://sonarcloud.io/api/project_badges/measure?project=fernandotag_github-blog&metric=alert_status">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/fernandotag/github-blog?color=273FAD">
-  <img alt="Repository size" src="https://img.shields.io/github/languages/code-size/fernandotag/github-blog?color=273FAD">
+  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/fernandotag/github-blog?color=273FAD">
   <a href="https://github.com/fernandotag/github-blog/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/fernandotag/github-blog?color=273FAD">
   </a> 
@@ -11,13 +12,13 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-273FAD">
 </p>
 
-This application is a simple todo list app.
+This project is a challenge from Rocketseat's Ignite course. The goal is to create a repository on Github, add some issues as a posts. And based on these issues (posts), create a blog using the Github API to retrieve all the data.
 
 You can:
-- list tasks
-- create new task
-- delete task
-- set task as done
+- list all posts
+- show only posts by published status
+- filter posts by query string
+- show intire post
 
 👉 Link to access: [https://fernandotag.github.io/github-blog/](https://fernandotag.github.io/github-blog/)
 
@@ -41,6 +42,7 @@ You can:
 - SonarCloud
 - Date FNS
 - React Markdown
+- Fontawesome
 
 ## How to run
 **1.** Clone this project
