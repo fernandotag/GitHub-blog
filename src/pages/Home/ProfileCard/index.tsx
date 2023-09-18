@@ -56,33 +56,37 @@ export function ProfileCard() {
 
   return (
     <ProfileCardContainer>
-      <img
-        width={148}
-        height={148}
-        src={profile?.avatarUrl}
-        alt="Person Photo"
-      />
-      <div>
-        <ProfileCardHeader>
-          <h1>{profile?.name}</h1>
-          <a href={profile?.url} target="_blank" rel="noreferrer">
-            GITHUB <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-          </a>
-        </ProfileCardHeader>
-        <ProfileCardBody>
-          <p>{profile?.description}</p>
-        </ProfileCardBody>
-        <ProfileCardFooter>
-          <span>
-            <FontAwesomeIcon icon={faGithub} />
-            {profile?.githubUsername}
-          </span>
-          <span>
-            <FontAwesomeIcon icon={faUserGroup} />
-            {profile?.followers} Followers
-          </span>
-        </ProfileCardFooter>
-      </div>
+      {profile && (
+        <>
+          <img
+            width={148}
+            height={148}
+            src={profile?.avatarUrl}
+            alt="Person Photo"
+          />
+          <div>
+            <ProfileCardHeader>
+              <h1>{profile?.name}</h1>
+              <a href={profile?.url} target="_blank" rel="noreferrer">
+                GITHUB <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              </a>
+            </ProfileCardHeader>
+            <ProfileCardBody>
+              <p>{profile?.description}</p>
+            </ProfileCardBody>
+            <ProfileCardFooter>
+              <span>
+                <FontAwesomeIcon icon={faGithub} />
+                {profile?.githubUsername}
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faUserGroup} />
+                {profile?.followers} Followers
+              </span>
+            </ProfileCardFooter>
+          </div>
+        </>
+      )}
     </ProfileCardContainer>
   )
 }
