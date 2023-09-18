@@ -15,7 +15,6 @@ export const StyledDefaultLayout = styled.div`
 
   p {
     color: ${(props) => props.theme['base-text']};
-    margin: 1rem 0;
   }
 
   a {

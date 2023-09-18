@@ -26,4 +26,8 @@ export const PostContent = styled.main`
   h3 {
     margin: 1.5rem 0;
   }
+
+  p {
+    margin: 1rem 0;
+  }
 `

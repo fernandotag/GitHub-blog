@@ -2,6 +2,7 @@ import { formatDistanceToNowStrict } from 'date-fns'
 import { IPost } from '..'
 import { enUS } from 'date-fns/locale'
 import { PostCardBody, PostCardContainer, PostCardHeader } from './styles'
+import ReactMarkdown from 'react-markdown'
 
 interface IPostCardProps {
   post: IPost
@@ -34,7 +35,9 @@ export function PostCard({ post }: IPostCardProps) {
         <span id="time">{formattedDate}</span>
       </PostCardHeader>
       <PostCardBody>
-        <p>{removeExcessCharactersFromText(text)}</p>
+        <p>
+          <ReactMarkdown>{removeExcessCharactersFromText(text)}</ReactMarkdown>
+        </p>
       </PostCardBody>
     </PostCardContainer>
   )
