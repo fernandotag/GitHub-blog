@@ -7,7 +7,7 @@ import { GlobalStyle } from './styles/global'
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename={window.location.pathname || ''}>
         <Router></Router>
       </BrowserRouter>
       <GlobalStyle></GlobalStyle>
