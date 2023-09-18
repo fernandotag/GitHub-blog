@@ -12,6 +12,16 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-273FAD">
 </p>
 
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
+
+## About the project
+
 This project is a challenge from Rocketseat's Ignite course. The goal is to create a repository on Github, add some issues as a posts. And based on these issues (posts), create a blog using the Github API to retrieve all the data.
 
 You can:
