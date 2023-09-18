@@ -20,7 +20,7 @@
   <a href="#license">License</a>
 </p>
 
-## <a name="about-the-project"></a>About the project
+## About the project
 
 This project is a challenge from Rocketseat's Ignite course. The goal is to create a repository on Github, add some issues as a posts. And based on these issues (posts), create a blog using the Github API to retrieve all the data.
 
@@ -32,13 +32,13 @@ You can:
 
 👉 Link to access: [https://fernandotag.github.io/github-blog/](https://fernandotag.github.io/github-blog/)
 
-## <a name="layout"></a>Layout
+## Layout
 
 <img width="1024" alt="Web screenshot" src=".github/assets/web-screenshot.jpg">
 <br />
 <img width="300" alt="Mobile screenshot" src=".github/assets/mobile-screenshot.jpg">
 
-### <a name="tecnologies"></a>Tecnologies
+### Tecnologies
 
 - GitHub API
 - ReactJS
